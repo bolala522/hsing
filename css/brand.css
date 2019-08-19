@@ -1,0 +1,83 @@
+#brand1_main #example3 .sp-slides-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#brand1_main div.lf_con div.col-sm-6{
+    padding-left: 0;
+}
+#brand1_main div.lf_con div.col-sm-6 a{
+    text-decoration: none;
+}
+#brand1_main div.lf_con div.col-sm-6 a span,.my_text{
+    display: block;
+    color: black;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 300;
+    padding-left: 36px;
+}
+@media screen and (max-width: 767px) {
+    #brand1_main div.lf_con div.col-sm-6 a span{
+        display: none;
+    }
+}
+#brand1_main{
+    margin-top: 36px;
+}
+#brand1_main div.col-sm-12:first-child{
+    background-color:#f8f8f8;
+    background-clip: content-box;
+}
+div.brand1_main_right{
+    background-color:#f8f8f8;
+    background-clip: content-box;
+}
+@media screen and (max-width:767px){
+    div.brand1_main_right{
+        margin-top: 36px;
+
+    }
+}
+#brand_intro{
+    margin-top: 36px;
+    margin-bottom: 36px;
+    /*border: 1px solid #838383;*/
+    background-clip: content-box;
+}
+#brand_intro .intro_tit {
+    padding: 0;
+    height: 47px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 47px;
+    background-color: #e0e5e4;
+    background-clip: content-box;
+}
+#brand_intro .intro_con{
+
+}
+#brand_intro .col-12 span{
+    padding-left: 40px;
+}
+#brand_intro  .intro_con{
+    display: flex;
+    align-items: center;
+    padding: 50px 35px;
+}
+
+#brand_intro  .intro_con div{
+     padding: 0 15px;
+ }
+#brand_intro  .intro_con div img{
+    display: block;
+}
+#brand_intro  .intro_con div span {
+    font-size: 14px;
+    line-height: 23px;
+    text-align: justify;
+    color: #373b3b;
+}
+.culture{
+    display: none;
+}
+
